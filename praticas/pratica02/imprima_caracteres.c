@@ -6,6 +6,6 @@ int main() {
 
     printf("%c\n", ch);
     printf("%s\n", str);
-
+    printf("\n");
     return 0;
 }
