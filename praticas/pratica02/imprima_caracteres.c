@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    
-    printf("A\n");
-    printf("Isso aqui eh uma string");
+    char ch = 'a';
+    char str[31] = "uma string";
+
+    printf("%c\n", ch);
+    printf("%s\n", str);
+
     return 0;
 }
