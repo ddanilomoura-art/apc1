@@ -3,10 +3,11 @@
 int main() {
     char caractere;
 
-    printf("insira um caractere: ");
+    printf("Insira um caractere: ");
     scanf("%c", &caractere);
-    while (getchar() != '\n');
 
-    printf("%i", caractere);
+    printf("Caractere: %c\n", caractere);
+    printf("ASCII: %d\n", caractere);
+
     return 0;
 }
